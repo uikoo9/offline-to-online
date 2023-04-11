@@ -9,7 +9,7 @@ nodejs 下 ping 能力，详见：[一篇文章判断用户是否在线](https:/
 
 安装
 
-```bash
+```shell
 npm i qiao-ping
 ```
 

@@ -1,13 +1,14 @@
 {
-  "name": "qiao-ping",
-  "version": "3.1.1",
-  "description": "nodejs ping",
+  "name": "offline-to-online",
+  "version": "1.0.4",
+  "description": "offline to online on nodejs and browser",
   "keywords": [
+    "offline to online",
     "nodejs",
-    "ping"
+    "browser"
   ],
   "author": "uikoo9 <uikoo9@qq.com>",
-  "homepage": "https://code.insistime.com/qiao-ping",
+  "homepage": "https://code.insistime.com/offline-to-online",
   "license": "MIT",
   "main": "index.js",
   "module": "src/index.js",
@@ -24,9 +25,6 @@
   },
   "scripts": {
     "build": "rollup -c"
-  },
-  "dependencies": {
-    "ping": "^0.4.4"
   },
   "nx": {
     "namedInputs": {
