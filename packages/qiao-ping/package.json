@@ -1,0 +1,49 @@
+{
+  "name": "qiao-ping",
+  "version": "3.1.1",
+  "description": "nodejs ping",
+  "keywords": [
+    "nodejs",
+    "ping"
+  ],
+  "author": "uikoo9 <uikoo9@qq.com>",
+  "homepage": "https://code.insistime.com/qiao-ping",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "src/index.js",
+  "sideEffets": false,
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uikoo9/offline-to-online.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uikoo9/offline-to-online/issues"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "ava"
+  },
+  "dependencies": {
+    "ping": "^0.4.4"
+  },
+  "nx": {
+    "namedInputs": {
+      "default": [
+        "{projectRoot}/src/**/*"
+      ]
+    },
+    "targets": {
+      "build": {
+        "inputs": [
+          "default"
+        ],
+        "outputs": [
+          "{projectRoot}/index.js"
+        ]
+      }
+    }
+  }
+}

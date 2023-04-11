@@ -1,0 +1,32 @@
+{
+  "name": "offline-to-online",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "clean": "lerna clean -y && lerna exec 'rm -rf package-lock.json'",
+    "init": "lerna bootstrap",
+    "build": "lerna run build",
+    "prettier": "prettier --write .",
+    "eslintfix": "eslint . --ext .js --fix",
+    "test": "lerna run test",
+    "lint": "npm run build && npm run prettier && npm run eslintfix && npm run test",
+    "postinstall": "npm run clean && npm run init && npm run lint",
+    "pb": "lerna publish",
+    "graph": "nx graph",
+    "check": "ncu && lerna exec ncu --concurrency=1",
+    "update": "ncu -u && lerna exec 'ncu -u' --concurrency=1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "ava": "^5.2.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.3",
+    "lerna": "^6.6.1",
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.7",
+    "rollup": "^3.20.2"
+  }
+}
