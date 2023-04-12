@@ -3,7 +3,9 @@
 [![npm version](https://img.shields.io/npm/v/offline-to-online.svg?style=flat-square)](https://www.npmjs.org/package/offline-to-online)
 [![npm downloads](https://img.shields.io/npm/dm/offline-to-online.svg?style=flat-square)](https://npm-stat.com/charts.html?package=offline-to-online)
 
-浏览器和 nodejs 下检测用户从离线到在线，详见：[一篇文章判断用户是否在线](https://blog.insistime.com/is-online)
+浏览器和 nodejs 下检测用户从离线到在线
+
+- [一篇文章判断用户是否在线](https://blog.insistime.com/is-online)
 
 ## install
 
