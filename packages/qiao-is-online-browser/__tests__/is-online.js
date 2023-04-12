@@ -1,15 +1,12 @@
-'use strict';
+const { isOnline } = require('../index.js');
 
-var q = require('../index.js');
-
-var test = async function () {
+async function test() {
   try {
-    var isOnlineImgSrc = 'http://www.baidu.com/img/flexible/logo/pc/result.png';
-    var isOnline = await q.isOnline(isOnlineImgSrc);
-    console.log(isOnline);
+    const res = await isOnline('http://www.baidu.com/img/flexible/logo/pc/result.png');
+    console.log(res);
   } catch (e) {
     console.log(e);
   }
-};
+}
 
 test();

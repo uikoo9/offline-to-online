@@ -24,7 +24,8 @@
     "url": "https://github.com/uikoo9/offline-to-online/issues"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "qwebpack build ./webpack/qiao.webpack.js"
   },
   "dependencies": {
     "offline-to-online": "^1.0.4"
