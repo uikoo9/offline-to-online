@@ -2,7 +2,7 @@
 const test = require('ava');
 
 // q
-const { isOnline, offlineToOnline } = require('../index.js');
+const { isOnline, offlineToOnline } = require('./index.js');
 
 // test
 test('is online', async (t) => {

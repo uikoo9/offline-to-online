@@ -2,7 +2,7 @@
 const test = require('ava');
 
 // q
-const { ping } = require('../index.js');
+const { ping } = require('./index.js');
 
 // test
 test('ping', async (t) => {

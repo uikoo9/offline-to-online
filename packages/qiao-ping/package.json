@@ -23,7 +23,8 @@
     "url": "https://github.com/uikoo9/offline-to-online/issues"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "ava"
   },
   "dependencies": {
     "ping": "^0.4.4"
