@@ -17,8 +17,8 @@
     "update": "ncu -u && lerna exec 'ncu -u' --concurrency=1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.5.1",
-    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/cli": "^17.6.0",
+    "@commitlint/config-conventional": "^17.6.0",
     "ava": "^5.2.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.38.0",
