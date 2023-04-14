@@ -14,7 +14,9 @@
     "pb": "lerna publish",
     "graph": "nx graph",
     "check": "ncu && lerna exec ncu --concurrency=1",
-    "update": "ncu -u && lerna exec 'ncu -u' --concurrency=1"
+    "update": "ncu -u && lerna exec 'ncu -u' --concurrency=1",
+    "pkg": "qlerna pkg ./packages",
+    "dpkg": "qlerna pkg ./packages dev"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.0",
@@ -27,7 +29,8 @@
     "lerna": "^6.6.1",
     "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
-    "qiao-webpack": "^1.4.2",
+    "qiao-lerna": "^3.1.5",
+    "qiao-webpack": "^3.1.5",
     "rollup": "^3.20.2"
   }
 }
