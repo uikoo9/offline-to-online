@@ -29,8 +29,8 @@
     "lerna": "^6.6.1",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
-    "qiao-lerna": "^3.2.7",
-    "qiao-webpack": "^3.2.7",
+    "qiao-lerna": "^3.2.8",
+    "qiao-webpack": "^3.2.8",
     "rollup": "^3.21.4"
   }
 }
