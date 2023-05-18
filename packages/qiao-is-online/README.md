@@ -61,36 +61,3 @@ await q.isOnline(true);
 ```javascript
 offlineToOnline(callback, intervalTime);
 ```
-
-## version
-
-### 0.0.7.20230411
-
-1. 3.0.0
-
-### 0.0.6.20221025
-
-1. 1.0.0
-
-### 0.0.5.20220512
-
-1. lerna
-
-### 0.0.4.20210220
-
-1. ncu
-
-### 0.0.3.20210219
-
-1. add jest
-2. add jsdoc
-
-### 0.0.2.2020908
-
-1. offline-to-online@0.0.8
-
-### 0.0.1.20200821
-
-1. init project
-2. is online
-3. offline to online

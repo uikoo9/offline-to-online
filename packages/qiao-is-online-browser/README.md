@@ -61,32 +61,3 @@ await isOnline('your online img src');
 ```javascript
 offlineToOnline(imgSrc, callback, intervalTime);
 ```
-
-## version
-
-### 0.0.6.20230411
-
-1. 3.0.0
-
-### 0.0.5.20221025
-
-1. 1.0.0
-
-### 0.0.4.20220512
-
-1. lerna
-
-### 0.0.3.20210220
-
-1. ncu
-2. add jsdoc
-
-### 0.0.2.20200908
-
-1. is online with img src
-
-### 0.0.1.20200821
-
-1. init project
-2. is online
-3. offline to online
